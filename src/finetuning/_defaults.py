@@ -1,4 +1,8 @@
-"""Configured defaults for fine-tuning workshop"""
+"""
+Configured defaults for fine-tuning workshop
+
+🫵 You shouldn't be here, no touching unless you want something to break!
+"""
 
 from pathlib import Path
 from dataclasses import dataclass
@@ -17,5 +21,7 @@ MODEL_DEFAULTS: ModelDefaults = ModelDefaults()
 class DataDefaults:
     """Defaults for dataset configuration."""
 
-    dataset = ''
+    dataset = '' # TODO: choose dataset
     data_dir = ROOT_DIR / 'data'
+
+DATA_DEFAULTS = DataDefaults()
