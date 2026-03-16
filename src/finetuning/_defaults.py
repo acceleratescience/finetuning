@@ -18,4 +18,8 @@ class WorkshopDefaults:
 
     hf_dir = ROOT_DIR / 'hf'
 
+    max_new_tokens = 256
+    temperature = 0.7
+    do_sample = True
+
 WORKSHOP_DEFAULTS: WorkshopDefaults = WorkshopDefaults()
