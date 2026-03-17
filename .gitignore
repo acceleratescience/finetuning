@@ -52,3 +52,10 @@ htmlcov/
 # Local configs
 .env
 *.local
+
+# Project specific
+hf/**
+!hf/.gitkeep
+configs/**
+!configs/example_lora.yaml
+!configs/example_dpo.yaml
