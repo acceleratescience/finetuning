@@ -1,5 +1,5 @@
 # Example configuration file for DPO fine-tuning
-# Safe limits for hyperparameters are imposed at validation in notebooks/rl.ipynb
+# Safe limits for hyperparameters are imposed at validation in notebooks/dpo.ipynb
 
 # Basic hyperparameters
 num_epochs: 1 # Allowed range: [1, 3]
